@@ -1,6 +1,6 @@
 # 📑 Caderno Temático: SQL para Análise de Dados
 
-Este repositório é o meu **Caderno Temático de Estudos**, desenvolvido especificamente como entrega do desafio do meu curso. Ele é focado em consolidar de forma prática e profunda os conhecimentos essenciais de **SQL (Structured Query Language)**. 
+Este repositório reúne materiais de estudo e desafios práticos de análise de dados. O caderno temático, desenvolvido como entrega do desafio do meu curso, consolida de forma prática e profunda os conhecimentos essenciais de **SQL (Structured Query Language)**. Também inclui um desafio criativo de planejamento de automações com N8N.
 
 A pergunta motivadora que guia este material é:
 > **"O que preciso para me tornar um bom analista de dados?"**
@@ -52,6 +52,20 @@ O caderno está dividido nos seguintes arquivos `.md` individuais, estruturados 
 
 ---
 
+## 🤖 Desafio Criativo: Automação com N8N
+
+O arquivo **[Desafio Criativo: Planejando Automações com N8N](desafio-criativo-n8n.md)** apresenta o planejamento de um workflow para triagem automática de bugs reportados por formulário. A proposta integra Google Forms, Google Sheets e Gmail, com etapas para:
+
+* validar os dados recebidos e ignorar registros inválidos;
+* classificar a severidade e registrar cada bug com ID único e status inicial;
+* evitar duplicidades quando uma resposta for reprocessada;
+* notificar a equipe de QA e confirmar o recebimento a quem reportou, respeitando a ordem definida para bugs críticos;
+* preservar o registro na planilha mesmo que o envio de e-mail falhe.
+
+O documento inclui o prompt final para solicitar ao N8N a explicação dos nós, da lógica do fluxo, dos responsáveis por cada etapa e dos possíveis pontos de falha.
+
+---
+
 ## 🗺️ Roadmap de Próximos Passos (Além do SQL)
 
 Após consolidar o domínio do SQL, o roadmap de estudos incluirá o desenvolvimento das seguintes habilidades complementares [1, 2, 10]:
@@ -60,4 +74,3 @@ Após consolidar o domínio do SQL, o roadmap de estudos incluirá o desenvolvim
 2. **Visualização de Dados e Storytelling:** Dominar ferramentas como **Power BI** ou **Tableau** para transformar queries complexas de SQL em painéis visuais interativos que qualquer pessoa de negócios consiga entender [10, 25].
 3. **Python (Pandas & NumPy):** Para automação de pipelines de dados e manipulação de arquivos quando as planilhas ou o banco de dados não forem suficientes [1, 10].
 4. **Excel Avançado:** Como ferramenta ágil para análises exploratórias rápidas e tabelas dinâmicas no dia a dia corporativo [2].
-
